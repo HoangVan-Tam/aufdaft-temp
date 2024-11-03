@@ -1,0 +1,13 @@
+
+.background-custom-primary{
+    background-color: #436850;
+}
+.about-container{
+    background-image: url("./images/about-banner.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.h-128{
+    height: 32rem;
+}
