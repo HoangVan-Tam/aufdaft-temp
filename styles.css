@@ -1,13 +1,30 @@
-
-.background-custom-primary{
-    background-color: #436850;
+.background-custom-primary {
+  background-color: #436850;
 }
-.about-container{
-    background-image: url("./images/about-banner.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+.background-custom-primary-2 {
+  background-image: linear-gradient(
+    to right,
+    rgba(117, 164, 127, 0.6),
+    rgba(117, 164, 127, 0.2),
+    rgba(245, 218, 210, 0.2),
+    rgba(245, 218, 210, 0.6)
+  );
 }
-.h-128{
-    height: 32rem;
+.background-custom-primary-3 {
+  background-image: linear-gradient(
+    to right,
+    rgba(245, 218, 210, 0.6),
+    rgba(117, 164, 127, 0.2),
+    rgba(245, 218, 210, 0.2),
+    rgba(117, 164, 127, 0.6)
+  );
+}
+.about-container {
+  background-image: url("./images/about-banner.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.h-128 {
+  height: 32rem;
 }
